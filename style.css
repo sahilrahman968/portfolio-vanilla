@@ -176,6 +176,10 @@ section {
   margin: auto 0;
 }
 
+.profile_pic{
+  border-radius: 3% ;
+}
+
 .section__text {
   align-self: center;
   text-align: center;
@@ -271,6 +275,8 @@ section {
   gap: 2rem;
   margin-bottom: 2rem;
   margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto,1rem);
 }
 
 .about-details-container {
